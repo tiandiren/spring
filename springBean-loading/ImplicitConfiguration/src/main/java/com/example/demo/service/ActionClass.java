@@ -17,14 +17,4 @@ public class ActionClass {
 		String str = beanClass.getCallTime() + " : call "+ beanClass.getBeanName();
 		logger.info(str);
 	}
-
-	public BeanClass getBeanClass() {
-		return beanClass;
-	}
-
-	public void setBeanClass(BeanClass beanClass) {
-		this.beanClass = beanClass;
-	}
-	
-	
 }
